@@ -18,6 +18,7 @@ git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koo
 # git clone https://github.com/fw876/helloworld.git package/luci-app-ssrp+
 
 # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+# git clone https://github.com/Twinzo1/AdGuardHome.git package/luci-app-adguardhome1
 
 # git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/k3/luci-app-k3screenctrl
 # git clone https://github.com/lwz322/k3screenctrl.git package/k3/k3screenctrl
