@@ -18,4 +18,6 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git;master' fe
 sed -i '$a src-git openclash https://github.com/vernesong/OpenClash.git;master' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages.git;master' feeds.conf.default
 sed -i '$a src-git Twinzo1 https://github.com/Twinzo1/AdGuardHome.git;master' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small;master' feeds.conf.default
+#small passwall dependence
+#sed -i '$a src-git small https://github.com/kenzok8/small;master' feeds.conf.default
+sed -i '$a src-git openwrt-passwall https://github.com/xiaorouji/openwrt-passwall;main' feeds.conf.default
