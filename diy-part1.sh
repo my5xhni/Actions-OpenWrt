@@ -20,4 +20,4 @@ sed -i '$a src-git openclash https://github.com/vernesong/OpenClash.git;master' 
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages.git;master' feeds.conf.default
 sed -i '$a src-git Twinzo1 https://github.com/Twinzo1/AdGuardHome.git;master' feeds.conf.default
 #small passwall dependence
-sed -i '$a src-git small https://github.com/kenzok8/small.git;master' feeds.conf.default
+#sed -i '$a src-git small https://github.com/kenzok8/small.git;master' feeds.conf.default
