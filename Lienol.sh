@@ -12,7 +12,7 @@ sed -i 's/192.168.1.1/192.168.11.44/g' package/base-files/files/bin/config_gener
 # rm -rf k3screenctrl package/lean
 #添加额外软件包
 git clone -b main   https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+# git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
 # git clone -b master https://github.com/kenzok8/small.git package/small
 git clone -b master https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
