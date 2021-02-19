@@ -14,7 +14,7 @@ sed -i 's/192.168.1.1/192.168.11.44/g' package/base-files/files/bin/config_gener
 #git clone -b masterhttps://github.com/kenzok8/openwrt-packages.git package/kenzok8
 #ADH,passwall,smartdns,openclash
 git clone -b main   https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+#git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #passwall依赖
 git clone -b master https://github.com/kenzok8/small.git package/small
 git clone -b master https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
